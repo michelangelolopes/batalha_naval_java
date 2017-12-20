@@ -43,6 +43,7 @@ public final class Arquivo
         procurarArquivo = new JFileChooser();        
         arquivoSelecionado = abrirDiretorio(procurarArquivo);
         File arquivo;
+        texto = " ";
         
         if (arquivoSelecionado == JFileChooser.APPROVE_OPTION) 
         {
